@@ -1,11 +1,11 @@
-[0m[[0minfo[0m] [0mUpdating {file:/Users/sqle/Desktop/CS/WebChatApplication/project/}webchatapplication-build...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#webchatapplication-build;0.1-SNAPSHOT[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/sqle/Desktop/CS/Web-Chat-Application/project/}web-chat-application-build...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#web-chat-application-build;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.6.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.6.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#sbt-plugin;2.6.3 ...[0m
@@ -1760,9 +1760,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.6.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.6.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
@@ -3349,10 +3349,10 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.6.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.6.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
@@ -5059,14 +5059,14 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.15 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.15 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.13.15 ...[0m
@@ -6843,11 +6843,11 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.6.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.6.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
@@ -8673,13 +8673,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-js-engine;1.2.1->com.typesafe.sbt#sbt-web;1.4.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.15 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.15 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
@@ -10473,10 +10473,10 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.6.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.6.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
@@ -12302,13 +12302,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-js-engine;1.2.1->com.typesafe.sbt#sbt-web;1.4.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.6.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.6.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
@@ -14374,13 +14374,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-js-engine;1.2.1->com.typesafe.sbt#sbt-web;1.4.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.15 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.15 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
@@ -16366,20 +16366,20 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#webchatapplication-build;0.1-SNAPSHOT [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#web-chat-application-build;0.1-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->default][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}[0m
@@ -16445,14 +16445,14 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}[0m
@@ -16508,11 +16508,11 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
 [0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.6->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#webchatapplication-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#web-chat-application-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0mall callers are evicted for org.tukaani#xz;1.0: evicting too[0m
 [0m[[0mdebug[0m] [0mall callers are evicted for org.tukaani#xz;1.0: evicting too[0m
 [0m[[0mdebug[0m] [0mall callers are evicted for org.tukaani#xz;1.0: evicting too[0m
@@ -16630,19 +16630,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 4333ms :: artifacts dl 51ms[0m
-[0m[[0mdebug[0m] [0m	report for default#webchatapplication-build;0.1-SNAPSHOT compile produced in /Users/sqle/Desktop/CS/WebChatApplication/project/target/resolution-cache/reports/default-webchatapplication-build-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#webchatapplication-build;0.1-SNAPSHOT runtime produced in /Users/sqle/Desktop/CS/WebChatApplication/project/target/resolution-cache/reports/default-webchatapplication-build-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#webchatapplication-build;0.1-SNAPSHOT test produced in /Users/sqle/Desktop/CS/WebChatApplication/project/target/resolution-cache/reports/default-webchatapplication-build-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#webchatapplication-build;0.1-SNAPSHOT provided produced in /Users/sqle/Desktop/CS/WebChatApplication/project/target/resolution-cache/reports/default-webchatapplication-build-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#webchatapplication-build;0.1-SNAPSHOT optional produced in /Users/sqle/Desktop/CS/WebChatApplication/project/target/resolution-cache/reports/default-webchatapplication-build-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#webchatapplication-build;0.1-SNAPSHOT compile-internal produced in /Users/sqle/Desktop/CS/WebChatApplication/project/target/resolution-cache/reports/default-webchatapplication-build-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#webchatapplication-build;0.1-SNAPSHOT runtime-internal produced in /Users/sqle/Desktop/CS/WebChatApplication/project/target/resolution-cache/reports/default-webchatapplication-build-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#webchatapplication-build;0.1-SNAPSHOT test-internal produced in /Users/sqle/Desktop/CS/WebChatApplication/project/target/resolution-cache/reports/default-webchatapplication-build-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#webchatapplication-build;0.1-SNAPSHOT plugin produced in /Users/sqle/Desktop/CS/WebChatApplication/project/target/resolution-cache/reports/default-webchatapplication-build-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#webchatapplication-build;0.1-SNAPSHOT sources produced in /Users/sqle/Desktop/CS/WebChatApplication/project/target/resolution-cache/reports/default-webchatapplication-build-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#webchatapplication-build;0.1-SNAPSHOT docs produced in /Users/sqle/Desktop/CS/WebChatApplication/project/target/resolution-cache/reports/default-webchatapplication-build-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#webchatapplication-build;0.1-SNAPSHOT pom produced in /Users/sqle/Desktop/CS/WebChatApplication/project/target/resolution-cache/reports/default-webchatapplication-build-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#webchatapplication-build;0.1-SNAPSHOT scala-tool produced in /Users/sqle/Desktop/CS/WebChatApplication/project/target/resolution-cache/reports/default-webchatapplication-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (4333ms resolve - 51ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2854ms :: artifacts dl 58ms[0m
+[0m[[0mdebug[0m] [0m	report for default#web-chat-application-build;0.1-SNAPSHOT compile produced in /Users/sqle/Desktop/CS/Web-Chat-Application/project/target/resolution-cache/reports/default-web-chat-application-build-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#web-chat-application-build;0.1-SNAPSHOT runtime produced in /Users/sqle/Desktop/CS/Web-Chat-Application/project/target/resolution-cache/reports/default-web-chat-application-build-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#web-chat-application-build;0.1-SNAPSHOT test produced in /Users/sqle/Desktop/CS/Web-Chat-Application/project/target/resolution-cache/reports/default-web-chat-application-build-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#web-chat-application-build;0.1-SNAPSHOT provided produced in /Users/sqle/Desktop/CS/Web-Chat-Application/project/target/resolution-cache/reports/default-web-chat-application-build-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#web-chat-application-build;0.1-SNAPSHOT optional produced in /Users/sqle/Desktop/CS/Web-Chat-Application/project/target/resolution-cache/reports/default-web-chat-application-build-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#web-chat-application-build;0.1-SNAPSHOT compile-internal produced in /Users/sqle/Desktop/CS/Web-Chat-Application/project/target/resolution-cache/reports/default-web-chat-application-build-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#web-chat-application-build;0.1-SNAPSHOT runtime-internal produced in /Users/sqle/Desktop/CS/Web-Chat-Application/project/target/resolution-cache/reports/default-web-chat-application-build-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#web-chat-application-build;0.1-SNAPSHOT test-internal produced in /Users/sqle/Desktop/CS/Web-Chat-Application/project/target/resolution-cache/reports/default-web-chat-application-build-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#web-chat-application-build;0.1-SNAPSHOT plugin produced in /Users/sqle/Desktop/CS/Web-Chat-Application/project/target/resolution-cache/reports/default-web-chat-application-build-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#web-chat-application-build;0.1-SNAPSHOT sources produced in /Users/sqle/Desktop/CS/Web-Chat-Application/project/target/resolution-cache/reports/default-web-chat-application-build-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#web-chat-application-build;0.1-SNAPSHOT docs produced in /Users/sqle/Desktop/CS/Web-Chat-Application/project/target/resolution-cache/reports/default-web-chat-application-build-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#web-chat-application-build;0.1-SNAPSHOT pom produced in /Users/sqle/Desktop/CS/Web-Chat-Application/project/target/resolution-cache/reports/default-web-chat-application-build-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#web-chat-application-build;0.1-SNAPSHOT scala-tool produced in /Users/sqle/Desktop/CS/Web-Chat-Application/project/target/resolution-cache/reports/default-web-chat-application-build-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (2854ms resolve - 58ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

@@ -7,7 +7,7 @@
 		revision="2.6.x"
 		conf="compile-internal"
 		confs="universal, universal-docs, universal-src, compile, runtime, test, provided, optional, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170812152553"/>
+		date="20170813154941"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-ahc-ws_2.12">
 			<revision name="2.6.3" status="release" pubdate="20170812030443" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="65">

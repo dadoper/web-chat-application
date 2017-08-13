@@ -1,5 +1,5 @@
 [0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/Users/sqle/Desktop/CS/WebChatApplication/conf/application.conf,/Users/sqle/Desktop/CS/WebChatApplication/target/scala-2.12/classes/application.conf)[0m
-[0m[[0mdebug[0m] [0m	(/Users/sqle/Desktop/CS/WebChatApplication/conf/logback.xml,/Users/sqle/Desktop/CS/WebChatApplication/target/scala-2.12/classes/logback.xml)[0m
-[0m[[0mdebug[0m] [0m	(/Users/sqle/Desktop/CS/WebChatApplication/conf/messages,/Users/sqle/Desktop/CS/WebChatApplication/target/scala-2.12/classes/messages)[0m
-[0m[[0mdebug[0m] [0m	(/Users/sqle/Desktop/CS/WebChatApplication/conf/routes,/Users/sqle/Desktop/CS/WebChatApplication/target/scala-2.12/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/Users/sqle/Desktop/CS/Web-Chat-Application/conf/application.conf,/Users/sqle/Desktop/CS/Web-Chat-Application/target/scala-2.12/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/sqle/Desktop/CS/Web-Chat-Application/conf/logback.xml,/Users/sqle/Desktop/CS/Web-Chat-Application/target/scala-2.12/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/sqle/Desktop/CS/Web-Chat-Application/conf/messages,/Users/sqle/Desktop/CS/Web-Chat-Application/target/scala-2.12/classes/messages)[0m
+[0m[[0mdebug[0m] [0m	(/Users/sqle/Desktop/CS/Web-Chat-Application/conf/routes,/Users/sqle/Desktop/CS/Web-Chat-Application/target/scala-2.12/classes/routes)[0m

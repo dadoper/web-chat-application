@@ -1,36 +1,119 @@
-2017-08-12 15:26:05,261 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
-2017-08-12 15:26:05,389 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-12 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2017-08-13 15:49:52,716 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-3 - Slf4jLogger started
+2017-08-13 15:49:52,825 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-7 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
 
-2017-08-12 15:26:05,469 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-12 - Application started (Dev)
-2017-08-12 15:27:29,842 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-2 - Slf4jLogger started
-2017-08-12 15:27:29,853 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-11 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2017-08-13 15:49:52,882 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-7 - Application started (Dev)
+2017-08-13 15:49:53,135 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in play-dev-mode-akka.actor.default-dispatcher-7 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2017-08-13 15:49:53,136 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in play-dev-mode-akka.actor.default-dispatcher-7 - The JWT signature in the cookie does not match the locally computed signature with the server.
+This usually indicates the browser has a leftover cookie from another Play application,
+so clearing cookies may resolve this error message.
+2017-08-13 15:49:53,542 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in play-dev-mode-akka.actor.default-dispatcher-6 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2017-08-13 15:49:53,543 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in play-dev-mode-akka.actor.default-dispatcher-6 - The JWT signature in the cookie does not match the locally computed signature with the server.
+This usually indicates the browser has a leftover cookie from another Play application,
+so clearing cookies may resolve this error message.
+2017-08-13 15:50:51,458 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-6 - [userFlow] Downstream finished.
+2017-08-13 15:50:51,661 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-3 - Slf4jLogger started
+2017-08-13 15:50:51,671 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-12 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
 
-2017-08-12 15:27:29,869 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-11 - Application started (Dev)
-2017-08-12 15:27:37,745 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-3 - [source] Element: hi
-2017-08-12 15:27:37,749 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-3 - [userFlow] Element: hi
-2017-08-12 15:27:37,749 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-3 - [userFlow] Element: hi
-2017-08-12 15:27:40,827 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [source] Element: E trung
-2017-08-12 15:27:40,827 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: E trung
-2017-08-12 15:27:40,827 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: E trung
-2017-08-12 15:27:40,941 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-3 - [source] Element: xin chao
-2017-08-12 15:27:40,942 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-3 - [userFlow] Element: xin chao
-2017-08-12 15:27:40,942 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-3 - [userFlow] Element: xin chao
-2017-08-12 15:27:53,413 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-3 - [source] Element: Toi dap nhau không
-2017-08-12 15:27:53,413 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-3 - [userFlow] Element: Toi dap nhau không
-2017-08-12 15:27:53,413 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-3 - [userFlow] Element: Toi dap nhau không
-2017-08-12 15:27:53,989 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [source] Element: uong ca phe phe
-2017-08-12 15:27:53,989 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: uong ca phe phe
-2017-08-12 15:27:53,989 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: uong ca phe phe
-2017-08-12 15:27:57,004 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [source] Element: Haha
-2017-08-12 15:27:57,004 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: Haha
-2017-08-12 15:27:57,004 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: Haha
-2017-08-12 15:28:04,301 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-3 - [source] Element: 🎅
-2017-08-12 15:28:04,301 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-3 - [userFlow] Element: 🎅
-2017-08-12 15:28:04,301 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-3 - [userFlow] Element: 🎅
-2017-08-12 15:28:17,038 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [source] Element: 🌵🌾
-2017-08-12 15:28:17,039 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: 🌵🌾
-2017-08-12 15:28:17,039 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: 🌵🌾
-2017-08-12 15:28:27,083 [INFO] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-2 - Starting coordinated shutdown from JVM shutdown hook
-2017-08-12 15:28:27,142 [INFO] from play.core.server.AkkaHttpServer in pool-4-thread-3 - Stopping server...
+2017-08-13 15:50:51,677 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-12 - Application started (Dev)
+2017-08-13 15:50:51,690 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in play-dev-mode-akka.actor.default-dispatcher-12 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2017-08-13 15:50:51,691 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in play-dev-mode-akka.actor.default-dispatcher-12 - The JWT signature in the cookie does not match the locally computed signature with the server.
+This usually indicates the browser has a leftover cookie from another Play application,
+so clearing cookies may resolve this error message.
+2017-08-13 15:50:51,840 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in play-dev-mode-akka.actor.default-dispatcher-10 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2017-08-13 15:50:51,840 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in play-dev-mode-akka.actor.default-dispatcher-10 - The JWT signature in the cookie does not match the locally computed signature with the server.
+This usually indicates the browser has a leftover cookie from another Play application,
+so clearing cookies may resolve this error message.
+2017-08-13 15:51:24,437 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [source] Element: fdsfasdf
+2017-08-13 15:51:24,438 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: fdsfasdf
+2017-08-13 15:51:25,405 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [source] Element: adfasd
+2017-08-13 15:51:25,406 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: adfasd
+2017-08-13 15:51:26,205 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [source] Element: asdfasdfsd
+2017-08-13 15:51:26,206 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: asdfasdfsd
+2017-08-13 15:51:26,949 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-4 - [source] Element: asdfasdf
+2017-08-13 15:51:26,950 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-4 - [userFlow] Element: asdfasdf
+2017-08-13 15:51:27,629 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-5 - [source] Element: asdfasdf
+2017-08-13 15:51:27,629 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-5 - [userFlow] Element: asdfasdf
+2017-08-13 15:51:28,325 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-4 - [source] Element: asdfasdf
+2017-08-13 15:51:28,325 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-4 - [userFlow] Element: asdfasdf
+2017-08-13 15:51:29,069 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-4 - [source] Element: asdfasdf
+2017-08-13 15:51:29,070 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-4 - [userFlow] Element: asdfasdf
+2017-08-13 15:51:29,819 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [source] Element: asdfasdfad
+2017-08-13 15:51:29,820 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: asdfasdfad
+2017-08-13 15:51:30,478 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [source] Element: asdfasdf
+2017-08-13 15:51:30,478 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: asdfasdf
+2017-08-13 15:51:31,003 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [source] Element: asdfa
+2017-08-13 15:51:31,004 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: asdfa
+2017-08-13 15:51:31,396 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-5 - [source] Element: asdf
+2017-08-13 15:51:31,397 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-5 - [userFlow] Element: asdf
+2017-08-13 15:51:31,772 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-5 - [source] Element: asdf
+2017-08-13 15:51:31,772 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-5 - [userFlow] Element: asdf
+2017-08-13 15:51:32,281 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [source] Element: 
+2017-08-13 15:51:32,281 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: 
+2017-08-13 15:51:32,929 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [source] Element: asdf
+2017-08-13 15:51:32,929 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: asdf
+2017-08-13 15:51:45,056 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-5 - [userFlow] Downstream finished.
+2017-08-13 15:51:45,254 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-2 - Slf4jLogger started
+2017-08-13 15:51:45,271 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-12 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-13 15:51:45,291 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-12 - Application started (Dev)
+2017-08-13 15:53:04,459 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-4 - Slf4jLogger started
+2017-08-13 15:53:04,468 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-16 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-13 15:53:04,476 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-16 - Application started (Dev)
+2017-08-13 15:53:04,492 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in play-dev-mode-akka.actor.default-dispatcher-16 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2017-08-13 15:53:04,492 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in play-dev-mode-akka.actor.default-dispatcher-16 - The JWT signature in the cookie does not match the locally computed signature with the server.
+This usually indicates the browser has a leftover cookie from another Play application,
+so clearing cookies may resolve this error message.
+2017-08-13 15:53:04,667 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in play-dev-mode-akka.actor.default-dispatcher-16 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2017-08-13 15:53:04,667 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in play-dev-mode-akka.actor.default-dispatcher-16 - The JWT signature in the cookie does not match the locally computed signature with the server.
+This usually indicates the browser has a leftover cookie from another Play application,
+so clearing cookies may resolve this error message.
+2017-08-13 15:53:06,856 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in play-dev-mode-akka.actor.default-dispatcher-16 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2017-08-13 15:53:06,857 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in play-dev-mode-akka.actor.default-dispatcher-16 - The JWT signature in the cookie does not match the locally computed signature with the server.
+This usually indicates the browser has a leftover cookie from another Play application,
+so clearing cookies may resolve this error message.
+2017-08-13 15:53:06,868 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-4 - [userFlow] Downstream finished.
+2017-08-13 15:53:07,040 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in play-dev-mode-akka.actor.default-dispatcher-16 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2017-08-13 15:53:07,040 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in play-dev-mode-akka.actor.default-dispatcher-16 - The JWT signature in the cookie does not match the locally computed signature with the server.
+This usually indicates the browser has a leftover cookie from another Play application,
+so clearing cookies may resolve this error message.
+2017-08-13 15:53:09,522 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-3 - [source] Element: lajsd;lkfj
+2017-08-13 15:53:09,523 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-3 - [userFlow] Element: lajsd;lkfj
+2017-08-13 15:53:10,381 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [source] Element: asdf;lkjasdf
+2017-08-13 15:53:10,381 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: asdf;lkjasdf
+2017-08-13 15:53:10,962 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [source] Element: asdf
+2017-08-13 15:53:10,962 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: asdf
+2017-08-13 15:53:11,725 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [source] Element: asdfdfg
+2017-08-13 15:53:11,725 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: asdfdfg
+2017-08-13 15:53:11,918 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-4 - [source] Element: 
+2017-08-13 15:53:11,918 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-4 - [userFlow] Element: 
+2017-08-13 15:53:12,632 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-4 - [source] Element: qwer
+2017-08-13 15:53:12,632 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-4 - [userFlow] Element: qwer
+2017-08-13 15:53:13,177 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-4 - [source] Element: asdf
+2017-08-13 15:53:13,177 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-4 - [userFlow] Element: asdf
+2017-08-13 15:53:13,478 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-4 - [source] Element: v
+2017-08-13 15:53:13,478 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-4 - [userFlow] Element: v
+2017-08-13 15:53:14,573 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-4 - [source] Element: sdf
+2017-08-13 15:53:14,574 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: sdf
+2017-08-13 15:53:18,155 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [source] Element: hhh
+2017-08-13 15:53:18,155 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: hhh
+2017-08-13 15:53:20,497 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [source] Element: ijujyh\
+2017-08-13 15:53:20,498 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: ijujyh\
+2017-08-13 15:53:23,282 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [source] Element: iijjukikik
+2017-08-13 15:53:23,283 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-2 - [userFlow] Element: iijjukikik
+2017-08-13 15:53:25,314 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-5 - [source] Element: jj
+2017-08-13 15:53:25,315 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-5 - [userFlow] Element: jj
+2017-08-13 15:54:40,810 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-4 - [userFlow] Downstream finished.
+2017-08-13 15:56:53,721 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in play-dev-mode-akka.actor.default-dispatcher-24 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2017-08-13 15:56:53,721 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in play-dev-mode-akka.actor.default-dispatcher-24 - The JWT signature in the cookie does not match the locally computed signature with the server.
+This usually indicates the browser has a leftover cookie from another Play application,
+so clearing cookies may resolve this error message.
+2017-08-13 15:56:53,852 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in play-dev-mode-akka.actor.default-dispatcher-32 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2017-08-13 15:56:53,852 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in play-dev-mode-akka.actor.default-dispatcher-32 - The JWT signature in the cookie does not match the locally computed signature with the server.
+This usually indicates the browser has a leftover cookie from another Play application,
+so clearing cookies may resolve this error message.
+2017-08-13 15:58:18,234 [DEBUG] from controllers.HomeController in application-akka.actor.default-dispatcher-6 - [userFlow] Downstream finished.
