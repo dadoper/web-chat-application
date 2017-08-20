@@ -1,4 +1,4 @@
-package com.chat.models;
+package models;
 
 
 public class Message {
@@ -6,14 +6,18 @@ public class Message {
     private long timeCreated;
     private String content;
 
+    public Message() {
+    }
+
     public Message(long messageId, String content) {
         this.messageId = messageId;
         this.content = content;
         this.timeCreated = System.currentTimeMillis();
     }
 
+    //Parse data raw from database with message id
     public Message(String line) {
-        String[] components = line.split(",");
+        String[] components = line.split("|");
         messageId = Long.parseLong(components[0]);
         timeCreated = Long.parseLong(components[1]);
         content = components[2];
@@ -53,6 +57,10 @@ public class Message {
 
     public boolean isMe(long messageId) {
         return this.messageId == messageId;
+    }
+
+    public String toStringForSend(Long channelId) {
+        return String.format("%d|%s", channelId, content);
     }
 
     @Override

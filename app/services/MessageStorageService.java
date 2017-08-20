@@ -1,8 +1,7 @@
-package com.chat.services;
+package services;
 
 
-import com.chat.models.Conversation;
-import com.chat.models.Message;
+import models.*;
 
 import java.io.*;
 import java.util.*;

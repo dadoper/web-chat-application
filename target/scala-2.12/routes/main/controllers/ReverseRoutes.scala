@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/Users/sqle/Desktop/CS/Web-Chat-Application/conf/routes
-// @DATE:Sun Aug 13 15:49:47 ICT 2017
+// @SOURCE:/Users/sqle/academic/cs/summer-java/web-chat-application/conf/routes
+// @DATE:Sun Aug 20 08:41:35 ICT 2017
 
 import play.api.mvc.Call
 

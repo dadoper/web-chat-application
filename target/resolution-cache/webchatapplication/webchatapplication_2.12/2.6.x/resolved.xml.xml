@@ -4,7 +4,7 @@
 		module="webchatapplication_2.12"
 		revision="2.6.x"
 		status="integration"
-		publication="20170813154941"
+		publication="20170820084125"
 	>
 		<description>
 		WebChatApplication

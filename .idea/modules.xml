@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Web-Chat-Application.iml" filepath="$PROJECT_DIR$/Web-Chat-Application.iml" />
-      <module fileurl="file://$PROJECT_DIR$/target/scala-2.12/routes/routes.iml" filepath="$PROJECT_DIR$/target/scala-2.12/routes/routes.iml" />
-      <module fileurl="file://$PROJECT_DIR$/target/scala-2.12/twirl/twirl.iml" filepath="$PROJECT_DIR$/target/scala-2.12/twirl/twirl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root.iml" filepath="$PROJECT_DIR$/.idea/modules/root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root-build.iml" filepath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
     </modules>
   </component>
 </project>

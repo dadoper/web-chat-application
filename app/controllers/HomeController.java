@@ -35,10 +35,14 @@ public class HomeController extends Controller {
 
     public WebSocket chat() {
         logger.info("New member is coming...");
-        return WebSocket.Text.accept(request ->
-                ActorFlow.actorRef(WebSocketActor::props,
-                        actorSystem, materializer
-                )
+        return WebSocket.Text.accept(request -> {
+            logger.info("UserId ..... {}", request.getQueryString("userId"));
+            return ActorFlow.actorRef(actorRef -> WebSocketActor.props(
+                    actorRef, Long.parseLong(request.getQueryString("userId"))),
+                    actorSystem, materializer
+            );
+        }
+
         );
     }
 

@@ -2,125 +2,151 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <!--<meta charset="utf-8">-->
-    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <head>
+            <!--<meta charset="utf-8">-->
+            <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+            <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 
-    <!--<link rel='stylesheet' href='@routes.Assets.at("lib/bootstrap/css/bootstrap.css")'>-->
-    <!--<link rel='stylesheet' href='@routes.Assets.at("lib/bootstrap/css/bootstrap-theme.css")'>-->
-    <!--<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">-->
-    <!--<link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">-->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+            <!--<link rel='stylesheet' href='@routes.Assets.at("lib/bootstrap/css/bootstrap.css")'>-->
+            <!--<link rel='stylesheet' href='@routes.Assets.at("lib/bootstrap/css/bootstrap-theme.css")'>-->
+            <!--<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">-->
+            <!--<link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-    <title>Chat Application</title>
+        <title>Chat Application</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href='@routes.Assets.at("vendor/bootstrap/css/bootstrap.min.css")' rel="stylesheet">
+            <!-- Bootstrap core CSS -->
+        <link href='@routes.Assets.at("vendor/bootstrap/css/bootstrap.min.css")' rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href='@routes.Assets.at("css/simple-sidebar.css")' rel="stylesheet">
+            <!-- Custom styles for this template -->
+        <link href='@routes.Assets.at("css/simple-sidebar.css")' rel="stylesheet">
 
-</head>
+    </head>
 
-<body>
+    <body>
 
-<div id="wrapper" class="toggled">
+        <div id="wrapper" class="toggled">
 
-    <!-- Sidebar -->
-    <div id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <li class="sidebar-brand">
-                <a href="#">
-                    ChatApplication
-                </a>
-            </li>
-            <li>
-                <a href="#">Room</a>
-            </li>
+                <!-- Sidebar -->
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <li class="sidebar-brand">
+                        <a href="#">
+                            ChatApplication
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Room</a>
+                    </li>
 
-        </ul>
-    </div>
-    <!-- /#sidebar-wrapper -->
-
-    <!-- Page Content -->
-    <div id="page-content-wrapper">
-
-        <div class="container-fluid">
-            <div>
-                <h1 class="">Chat Room</h1>
+                </ul>
             </div>
+                <!-- /#sidebar-wrapper -->
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul id="messages" class="list-unstyled"; style="overflow: scroll; height: 400px;">
-                    </ul>
+                <!-- Page Content -->
+            <div id="page-content-wrapper">
+
+                <div class="container-fluid">
+                    <div>
+                        <h1 class="">Chat Room</h1>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <ul id="messages" class="list-unstyled" ; style="overflow: scroll;
+                                height: 400px;">
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <div class="footer navbar-fixed-bottom">
-        <div class="row">
-            <div class="col-xs-8 col-sm-9">
-                <input id="message" placeholder="Type Here" type="text"
-                       autofocus
-                       autocomplete="off" spellcheck="false" autocorrect="off"
-                       class="form-control input-lg"/>
+            <div class="footer navbar-fixed-bottom">
+                <div class="row">
+                    <div class="col-xs-8 col-sm-9">
+                        <input id="message" placeholder="Type Here" type="text"
+                        autofocus
+                        autocomplete="off" spellcheck="false" autocorrect="off"
+                        class="form-control input-lg"/>
+                    </div>
+
+                    <div class="col-xs-4 col-sm-3">
+                        <button id="send" type="submit" class="btn btn-primary btn-lg btn-block">Send</button>
+                    </div>
+                </div>
             </div>
 
-            <div class="col-xs-4 col-sm-3">
-                <button id="send" type="submit" class="btn btn-primary btn-lg btn-block">Send</button>
-            </div>
+                <!-- /#page-content-wrapper -->
+
         </div>
-    </div>
+            <!-- /#wrapper -->
 
-    <!-- /#page-content-wrapper -->
+            <!-- Bootstrap core JavaScript -->
+        <script src='@routes.Assets.at("vendor/jquery/jquery.min.js")'></script>
+        <script src='@routes.Assets.at("vendor/popper/popper.min.js")'></script>
+        <script src='@routes.Assets.at("vendor/bootstrap/js/bootstrap.min.js")'></script>
 
-</div>
-<!-- /#wrapper -->
+            <!-- Menu Toggle Script -->
+        <script language="javascript">
+                function getQueryVariable(variable)
+                {
+                    var query = window.location.search.substring(1);
+                    var vars = query.split("&");
+                    for (var i=0;i<vars.length;i++) {
+                        var pair = vars[i].split("=");
+                        if(pair[0] == variable){return pair[1];}
+                    }
+                    return(false);
+                }
 
-<!-- Bootstrap core JavaScript -->
-<script src='@routes.Assets.at("vendor/jquery/jquery.min.js")'></script>
-<script src='@routes.Assets.at("vendor/popper/popper.min.js")'></script>
-<script src='@routes.Assets.at("vendor/bootstrap/js/bootstrap.min.js")'></script>
+                //TODO: here hardcode channel id for test, need to update
+                var channelIdDefault = 100;
 
-<!-- Menu Toggle Script -->
-<script language="javascript">
-                var $messages = $("#messages"),
-                        $send = $("#send"),
-                        $message = $("#message"),
-                        connection = new WebSocket("@url");
+                var userId = getQueryVariable("userId");
 
-                $send.prop("disabled", true);
+                //TODO: check if userId is a number
+                if(userId == null || userId == "" ) {
+                    alert("You are not part of the s¥stem!")
+                } else {
+                    var $messages = $("#messages");
+                    var $send = $("#send");
+                    var $message = $("#message");
+                    var connection = new WebSocket("@url" + "?userId=" + userId);
 
-                var send = function () {
-                    var text = $message.val();
-                    $message.val("");
-                    connection.send(text);
-                };
+                    $send.prop("disabled", true);
 
-                connection.onopen = function () {
-                    $send.prop("disabled", false);
-                    $messages.prepend($("<li class='bg-info' style='font-size: 1.5em'>Connected</li>"));
-                    $send.on('click', send);
-                    $message.keypress(function(event){
-                        var keycode = (event.keyCode ? event.keyCode : event.which);
-                        if(keycode == '13'){
-                            send();
-                        }
-                    });
-                };
-                connection.onerror = function (error) {
-                    console.log('WebSocket Error ', error);
-                };
-                connection.onmessage = function (event) {
-                    $messages.append($("<li style='font-size: 1.5em'>" + event.data + "</li>"))
+                    var send = function () {
+                        //TODO: combine current channelId + content with |
+
+                        var text = $message.val();
+                        $message.val("");
+                        var messageRaw = channelIdDefault + "|" + text;
+                        connection.send(messageRaw);
+                    };
+
+                    connection.onopen = function () {
+                        $send.prop("disabled", false);
+                        $messages.prepend($("<li class='bg-info' style='font-size: 1.5em'>Connected</li>"));
+                        $send.on('click', send);
+                        $message.keypress(function (event) {
+                            var keycode = (event.keyCode ? event.keyCode : event.which);
+                            if (keycode == '13') {
+                                send();
+                            }
+                        });
+                    };
+                    connection.onerror = function (error) {
+                        console.log('WebSocket Error ', error);
+                    };
+                    connection.onmessage = function (event) {
+                        //TODO: parse & get channelId, after that put message to right channel (UI)
+                        $messages.append($("<li style='font-size: 1.5em'>" + event.data + "</li>"))
+                    }
                 }
         </script>
 
-</body>
+    </body>
 </html>
